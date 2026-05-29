@@ -14,6 +14,9 @@ This file indexes the structural hierarchy and active states of the standalone P
         * **Pivot**: Dropdown menu (Selector).
             * Options: Center, First Corner.
         * **Size**: Input fields (X, Y, Z).
+    * **Shape-Specific Settings** (Contextual menu area, e.g., "Plane Settings"):
+        * **Height Cuts**: Integer input.
+        * **Width Cuts**: Integer input.
     * **Note**: Click and drag in Scene view to place/scale. SHIFT+click to duplicate last settings.
 * 🟠 **New Poly Shape** — Enables drawing custom multi-vertex polygon shapes in the Scene view.
 * 🟠 **Smoothing** — Opens the smoothing groups configuration panel.
