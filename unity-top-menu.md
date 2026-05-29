@@ -18,44 +18,84 @@ This file indexes the complete structural hierarchy of the ProBuilder menu locat
   * *Open Vertex Color Editor* `[Disabled when no mesh selected]`
   * *Open Vertex Position Editor* `[Disabled when no mesh selected]`
 * **Dimensions Overlay >** — Sub-menu for grid and dimension overlay settings.
-  * **Show Dimensions [Always Enabled]** — Toggles the measurement display for selected bounding boxes.
+  * **Hide [Always Enabled]** — Hides the measurement display.
+  * **Show [Always Enabled]** — Shows the measurement display for selected bounding boxes.
 
 ---
 
 * **Selection >** — Sub-menu for advanced object/element selection actions.
-  * *Select Loop* `[Disabled when no mesh selected]`
-  * *Select Ring* `[Disabled when no mesh selected]`
-  * *Grow Selection* `[Disabled when no mesh selected]`
-  * *Shrink Selection* `[Disabled when no mesh selected]`
+  * *Grow Selection ( Alt+G )* `[Disabled when no mesh selected]`
   * *Select Hole* `[Disabled when no mesh selected]`
+  * *Select Loop ( Alt+L )* `[Disabled when no mesh selected]`
+  * *Select Material* `[Disabled when no mesh selected]`
+  * *Select Ring ( Alt+R )* `[Disabled when no mesh selected]`
+  * *Select Smoothing Group* `[Disabled when no mesh selected]`
   * *Select Vertex Color* `[Disabled when no mesh selected]`
+  * *Shrink Selection ( Alt+Shift+G )* `[Disabled when no mesh selected]`
 * **Interaction >** — Sub-menu for interaction behaviors and tools.
-  * **Toggle Edit Mode [Always Enabled]** — Switches between Object and Element editing modes.
-  * **Backface Culling [Always Enabled]** — Toggles selection visibility of backward-facing polygons.
-  * **Rect Select Mode >** — Bounding box selection strategy options.
-    * **Complete [Always Enabled]** — Elements must be entirely inside the selection rectangle.
-    * **Partial [Always Enabled]** — Elements are selected if the rectangle touches them.
+  * *Toggle Drag Rect Mode* `[Disabled when no mesh selected]`
+  * *Toggle Drag Selection Mode* `[Disabled when no mesh selected]`
+  * *Toggle Handle Orientation [p]* `[Disabled when no mesh selected]`
+  * *Toggle Select Back Faces* `[Disabled when no mesh selected]`
+  * *Toggle X Ray ( Alt+Shift+X )* `[Disabled when no mesh selected]`
 * **Object >** — Sub-menu for object-level modifications.
-  * **New Shape [Always Enabled]** — Opens the shape creation wizard panel.
-  * *Subdivide Object* `[Disabled when no mesh selected]`
+  * *Center Pivot* `[Disabled when no mesh selected]`
+  * *Conform Object Normals* `[Disabled when no mesh selected]`
+  * *Flip Object Normals* `[Disabled when no mesh selected]`
   * *Freeze Transform* `[Disabled when no mesh selected]`
+  * *Merge Objects* `[Disabled when no mesh selected]`
+  * *Mirror Objects* `[Disabled when no mesh selected]`
+  * *Pro Builderize* `[Disabled when no mesh selected]`
+  * *Set Collider* `[Disabled when no mesh selected]`
+  * *Set Trigger* `[Disabled when no mesh selected]`
+  * *Subdivide Object* `[Disabled when no mesh selected]`
+  * *Triangulate Object* `[Disabled when no mesh selected]`
 * **Geometry >** — Sub-menu for structural and mesh geometry operations.
-  * *Extrude* `[Disabled when no mesh selected]`
-  * *Subdivide* `[Disabled when no mesh selected]`
-  * *Merge Vertices* `[Disabled when no mesh selected]`
-  * *Collapse Vertices* `[Disabled when no mesh selected]`
-  * *Split Vertices* `[Disabled when no mesh selected]`
-  * *Bevel* `[Disabled when no mesh selected]`
-  * *Bridge Edges* `[Disabled when no mesh selected]`
+  * *Bevel Edges* `[Disabled when no mesh selected]`
+  * *Bridge Edges ( Alt+B )* `[Disabled when no mesh selected]`
+  * *Collapse Vertices ( Alt+C )* `[Disabled when no mesh selected]`
+  * *Conform Face Normals* `[Disabled when no mesh selected]`
+  * *Delete Faces [backspace]* `[Disabled when no mesh selected]`
+  * *Detach Faces* `[Disabled when no mesh selected]`
+  * *Duplicate Faces* `[Disabled when no mesh selected]`
+  * *Extrude ( Ctrl+E )* `[Disabled when no mesh selected]`
+  * *Fill Hole* `[Disabled when no mesh selected]`
+  * *Flip Face Edge* `[Disabled when no mesh selected]`
+  * *Flip Face Normals ( Alt+N )* `[Disabled when no mesh selected]`
+  * *Insert Edge Loop ( Alt+U )* `[Disabled when no mesh selected]`
+  * *Merge Faces* `[Disabled when no mesh selected]`
+  * *Offset Elements* `[Disabled when no mesh selected]`
+  * *Set Pivot To Selection ( Ctrl+J )* `[Disabled when no mesh selected]`
+  * *Smart Connect ( Alt+E )* `[Disabled when no mesh selected]`
+  * *Smart Subdivide ( Alt+S )* `[Disabled when no mesh selected]`
+  * *Split Vertices ( Alt+X )* `[Disabled when no mesh selected]`
+  * *Triangulate Faces* `[Disabled when no mesh selected]`
+  * *Weld Vertices ( Alt+V )* `[Disabled when no mesh selected]`
 
 ---
 
 * **Materials >** — Sub-menu for ProBuilder material assignment and vertex coloring shortcuts.
-  * **Material Editor [Always Enabled]** — Opens the quick material palette window.
-  * *Apply Material Palette* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 1 ( Alt+1 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 10 ( Alt+0 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 2 ( Alt+2 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 3 ( Alt+3 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 4 ( Alt+4 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 5 ( Alt+5 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 6 ( Alt+6 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 7 ( Alt+7 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 8 ( Alt+8 )* `[Disabled when no mesh selected]`
+  * *Apply Material Preset 9 ( Alt+9 )* `[Disabled when no mesh selected]`
 * **Vertex Colors >** — Sub-menu for vertex color editing and panels.
-  * **Vertex Color Palette [Always Enabled]** — Opens the color swatch window for mesh painting.
-  * *Set Selected Vertex Color* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 0 ( Alt+Shift+0 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 1 ( Alt+Shift+1 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 2 ( Alt+Shift+2 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 3 ( Alt+Shift+3 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 4 ( Alt+Shift+4 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 5 ( Alt+Shift+5 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 6 ( Alt+Shift+6 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 7 ( Alt+Shift+7 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 8 ( Alt+Shift+8 )* `[Disabled when no mesh selected]`
+  * *Set Selected Faces to Preset 9 ( Alt+Shift+9 )* `[Disabled when no mesh selected]`
 
 ---
 
