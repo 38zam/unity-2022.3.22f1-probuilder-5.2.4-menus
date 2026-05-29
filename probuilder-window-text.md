@@ -7,6 +7,12 @@ This file indexes the structural hierarchy and active states of the standalone P
 ## 🛠️ ProBuilder Element & Tool List
 
 * 🟠 **New Shape** — Opens the shape creation preview and parameters.
+    * **Shape Palette**
+    * **Shape Properties**
+        * Shape (Dropdown)
+        * Pivot (Dropdown)
+        * Size (X, Y, Z coordinates)
+    * **Shape-Specific Settings** (Contextual menu area)
 * 🟠 **New Poly Shape** — Enables drawing custom multi-vertex polygon shapes in the Scene view.
 * 🟠 **Smoothing** — Opens the smoothing groups configuration panel.
 * 🟠 **Material Editor** — Opens the quick material assignment shortcut panel.
