@@ -16,7 +16,7 @@ This repository provides a strict context window and reference index for Large L
 
 This repository is organized into 4 logical steps corresponding to the ProBuilder user interface workflow:
 
-1. **Top Menu "Tools" Description:** The complete hierarchy of the Unity top menu bar (`Tools > ProBuilder`), including its sub-menus (`Editors`, `Geometry`, `Actions`...) and physical divider lines.
-2. **Scene Quick Menu Toolbar Description:** The selection modes toolbar (Object, Vertex, Edge, Face) and their exact behavior.
-3. **In-Scene ProBuilder Window Description:** The global layout and organization of the main ProBuilder panel (whether set to Text or Icon mode).
-4. **ProBuilder Window Menus & Sub-menus Description:** The complete, dynamic list of tools available inside the panel, including the exact tracking of secondary option buttons `[+]` (e.g., `Extrude [+]`).
+1. [unity-top-menu.md](./unity-top-menu.md) — **Top Menu "Tools" Description:** The complete hierarchy of the Unity top menu bar (`Tools > ProBuilder`), including its sub-menus (`Editors`, `Geometry`, `Actions`...) and physical divider lines.
+2. [scene-toolbar.md](./scene-toolbar.md) — **Scene Quick Menu Toolbar Description:** The selection modes toolbar (Object, Vertex, Edge, Face) and their exact behavior.
+3. [probuilder-window.md](./probuilder-window.md) — **In-Scene ProBuilder Window Description:** The global layout and organization of the main ProBuilder panel (whether set to Text or Icon mode).
+4. [probuilder-menus.md](./probuilder-menus.md) — **ProBuilder Window Menus & Sub-menus Description:** The complete, dynamic list of tools available inside the panel, including the exact tracking of secondary option buttons `[+]` (e.g., `Extrude [+]`).
