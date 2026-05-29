@@ -100,21 +100,29 @@ This file indexes the complete structural hierarchy of the ProBuilder menu locat
 ---
 
 * **Repair >** — Sub-menu for mesh validation, rebuilding, and repair tools.
-  * *Rebuild Mesh* `[Disabled when no mesh selected]`
-  * *Remove Degenerate Triangles* `[Disabled when no mesh selected]`
-  * **Upgrade Scene to ProBuilder 5 [Always Enabled]** — Standardizes older project data formats.
+  * **Fix Meshes in Selection [Always Enabled]** — Fixes diagnostic structure errors on selected meshes.
+  * **Rebuild All ProBuilder Objects [Always Enabled]** — Forces global recalculation of all ProBuilder objects.
+  * *Rebuild Shared Indexes Cache* `[Disabled when no mesh selected]`
+  * ---
+  * **Mesh Debug Tool [Always Enabled]** — Opens the technical mesh overlay and inspection panel.
+  * **Check for Broken ProBuilder References [Always Enabled]** — Scans the project or scene for disconnected asset nodes.
 
 ---
 
-* **Export >** — Sub-menu for exporting ProBuilder meshes to external formats (OBJ, FBX, Asset, etc.).
+* **Export >** — Sub-menu for exporting ProBuilder meshes to external formats (OBJ, PLY, STL, Asset).
   * *Export Asset* `[Disabled when no mesh selected]`
-  * *Export OBJ* `[Disabled when no mesh selected]`
-  * *Export FBX* `[Disabled when no mesh selected]`
+  * *Export Obj* `[Disabled when no mesh selected]`
+  * *Export Ply* `[Disabled when no mesh selected]`
+  * *Export Stl Ascii* `[Disabled when no mesh selected]`
+  * *Export Stl Binary* `[Disabled when no mesh selected]`
 
 ---
 
 * **Actions >** — Sub-menu for quick contextual actions.
-  * *Strip ProBuilder Scripts* `[Disabled when no mesh selected]`
+  * **Strip All ProBuilder Scripts in Scene ( Ctrl+Alt+S ) [Always Enabled]** — Destructively removes all ProBuilder core scripts from every object in the current scene to leave clean static meshes.
+  * *Strip ProBuilder Scripts in Selection ( Ctrl+Shift+S )* `[Disabled when no mesh selected]`
+
+---
+
 * **Debug >** — Sub-menu for technical logs, mesh data inspection, and debugging utilities.
-  * **Force Refresh Objects [Always Enabled]** — Forces a hard update on all active scene instances.
-  * **Show Vertex Markers [Always Enabled]** — Toggles structural handle rendering in the Editor view.
+  * **Log Preferences [Always Enabled]** — Opens ProBuilder's internal logging level and debug report configurations.
