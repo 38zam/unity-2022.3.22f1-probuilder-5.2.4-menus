@@ -8,6 +8,15 @@ This file indexes the complete structural hierarchy of the ProBuilder menu locat
 
 * **ProBuilder Window** — Opens the main ProBuilder editing window and dynamic panel.
 * **Editors >** — Sub-menu for external editing modules.
+  * *New Bezier Shape* `[Disabled when no mesh selected]`
+  * *New Poly Shape Toggle* `[Disabled when no mesh selected]`
+  * *New Shape Toggle* (`Ctrl+Shift+K`) `[Disabled when no mesh selected]`
+  * **Open Lightmap UV Editor** `[Always Enabled]` — Opens the baking UV configuration window.
+  * *Open Material Editor* `[Disabled when no mesh selected]`
+  * *Open Smoothing Editor* `[Disabled when no mesh selected]`
+  * *Open UV Editor* `[Disabled when no mesh selected]`
+  * *Open Vertex Color Editor* `[Disabled when no mesh selected]`
+  * *Open Vertex Position Editor* `[Disabled when no mesh selected]`
 * **Dimensions Overlay >** — Sub-menu for grid and dimension overlay settings.
 
 ---
@@ -34,4 +43,3 @@ This file indexes the complete structural hierarchy of the ProBuilder menu locat
 
 * **Actions >** — Sub-menu for quick contextual actions.
 * **Debug >** — Sub-menu for technical logs, mesh data inspection, and debugging utilities.
-
