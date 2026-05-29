@@ -9,8 +9,10 @@ This file indexes the structural hierarchy and active states of the standalone P
 * 🟠 **New Shape** — Opens the shape creation preview and parameters.
     * **Shape Palette**: Grid of primitive icons.
     * **Shape Properties**:
-        * **Shape**: Dropdown menu (Selector for active primitive).
-        * **Pivot**: Dropdown menu (e.g., First Corner, Center).
+        * **Shape**: Dropdown menu (Selector).
+            * Options: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe.
+        * **Pivot**: Dropdown menu (Selector).
+            * Options: Center, First Corner.
         * **Size**: Input fields (X, Y, Z).
     * **Note**: Click and drag in Scene view to place/scale. SHIFT+click to duplicate last settings.
 * 🟠 **New Poly Shape** — Enables drawing custom multi-vertex polygon shapes in the Scene view.
