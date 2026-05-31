@@ -182,6 +182,29 @@ This file indexes the structural hierarchy and active states of the standalone P
             * **Size/Length Slider**: A horizontal slider is exposed directly on the right side of the tab bar header to control normal lines visualization.
 
 * 🟠 **Material Editor**
+    * **Quick Material**:
+        * **Material Slot**: Object field reference (Default: `None (Material)`)
+        * **Apply (Ctrl+Shift+Click)**: Button `[Always Enabled]`
+        * **Match Selection**: Button `[Disabled — Greyed out]`
+        * **Texture Preview Box**: Displays `None (Texture)` to the right of the buttons.
+    * **Material Palette**:
+        * **Palette Selection**: Dropdown menu. Clicking it opens a context menu with:
+            * `✓ Default Material Palette` (Active selection)
+            * `New Material Palette...`
+        * **Palette Profile Field**: Asset field reference (Default: `Default Material Palette (Material Palette)`)
+        * **Shortcut List (Slots with Asset reference fields)**:
+            * **Alt + 1**: `ProBuilderDefault`
+            * **Alt + 2**: `None (Material)`
+            * **Alt + 3**: `None (Material)`
+            * **Alt + 4**: `None (Material)`
+            * **Alt + 5**: `None (Material)`
+            * **Alt + 6**: `None (Material)`
+            * **Alt + 7**: `None (Material)`
+            * **Alt + 8**: `None (Material)`
+            * **Alt + 9**: `None (Material)`
+            * **Alt + 0**: `None (Material)`
+        * **Add**: Button at the bottom of the shortcut list.
+
 * 🟠 **UV Editor**
 * 🟠 **Vertex Colors**
 
