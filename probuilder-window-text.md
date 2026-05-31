@@ -271,6 +271,16 @@ This file indexes the structural hierarchy and active states of the standalone P
             15. Medium Gray
             16. Off-White / Light Gray
 
+* 🔵 **Selection Modifiers (Blue Section)**
+    * `Rect: Intersect` / `Rect: Complete` Toggle:
+        * **Behavior**: Clicking this option toggles the bounding box selection behavior between two modes:
+            * `Rect: Intersect` (Default): Selects mesh elements if any part of them is touched or intersected by the drag rectangle.
+            * `Rect: Complete`: Selects mesh elements only if they are completely encompassed by the drag rectangle.
+        * **Official Tooltip**: 
+            > Sets whether or not a mesh element (edge or face) needs to be completely encompassed by a drag to be selected.
+            > 
+            > The default value is Intersect, meaning if any part of the elemnent is touched by the drag rectangle it will be selected.
+
 * 🔵 **Orientation: Global**
 
 * 🟢 *Conform Normals* `[Disabled — Greyed out]`
