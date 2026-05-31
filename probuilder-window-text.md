@@ -10,17 +10,106 @@ This file indexes the structural hierarchy and active states of the standalone P
     * **Shape Palette (Icons)**:
         * 1. **Sprite**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Sprite (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
+                * **Shape**: Dropdown (Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X, Y, Z
+                * **Size**: X: 1, Y: 1, Z: 0
         * 2. **Plane**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Plane (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
+                * **Shape**: Dropdown
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X, Y, Z
+                * **Size**: X: 1, Y: 0, Z: 1
             * **Plane Settings**:
                 * **Height Cuts**: Integer input
                 * **Width Cuts**: Integer input
+        * 3. **Cone**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Cone Settings**:
+                * **Sides Count**: Slider / Integer input
+                * **Smooth**: Checkbox
+        * 4. **Sphere**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 0, Z: 1
+            * **Sphere Settings**:
+                * **Subdivisions**: Slider / Integer input
+                * **Smooth**: Checkbox
+        * 5. **Door**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 0, Z: 1
+            * **Door Settings**:
+                * **Pediment Height**: Float input
+                * **Side Width**: Float input
+        * 6. **Prism**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 0, Z: 1
+            * *No unique settings.*
+        * 7. **Cube**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * *No unique settings.*
+        * 8. **Cylinder**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Cylinder Settings**:
+                * **Sides Count**: Slider / Integer input
+                * **Height Cuts**: Integer input
+                * **Smooth**: Checkbox
+        * 9. **Stairs**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Stairs Settings**:
+                * **Steps Generation**: Dropdown (Count)
+                * **Steps Count**: Slider / Integer input
+                * **Circumference**: Slider input
+                * **Inner Radius**: Float/Integer input
+                * **Sides**: Checkbox
+        * 10. **Torus**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Torus Settings**:
+                * **Tube Radius**: Float input
+                * **Rows**: Slider / Integer input
+                * **Columns**: Slider / Integer input
+                * **Horizontal Circumference**: Slider / Integer input
+                * **Vertical Circumference**: Slider / Integer input
+                * **Smooth**: Checkbox
+        * 11. **Arch**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Arch Settings**:
+                * **Thickness**: Float input
+                * **Sides Count**: Slider / Integer input
+                * **Arch Circumference**: Slider / Integer input
+                * **End Caps**: Checkbox
+                * **Smooth**: Checkbox
+        * 12. **Pipe**:
+            * **Shape Properties (New Shape)**:
+                * **Shape**: Dropdown
+                * **Pivot**: [Center, First Corner]
+                * **Size**: X: 1, Y: 1, Z: 1
+            * **Pipe Settings**:
+                * **Thickness**: Float input
+                * **Sides Count**: Slider / Integer input
+                * **Height Cuts**: Slider / Integer input
+                * **Smooth**: Checkbox
     * **Note**: Click and drag in Scene view to place/scale. SHIFT+click to duplicate last settings.
 
 * 🟠 **New Poly Shape**
