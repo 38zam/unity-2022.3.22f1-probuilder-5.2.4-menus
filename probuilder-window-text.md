@@ -244,7 +244,32 @@ This file indexes the structural hierarchy and active states of the standalone P
         * **Origin Coordinates**: Displays a faint gray `0, 0` text indicator at the bottom-left vertex corner of the blue outline boundary.
         * **Background Layout**: Dark gray grid matrix canvas background.
 
-* 🟠 **Vertex Colors**
+* 🎨 **Vertex Colors Window**
+    * **Header Controls**:
+        * `Reset` button: Positioned at the top right of the window header context line.
+    * **Color Palette Section**:
+        * **Active Palette Selector**: A dropdown selection row labeled `Color Palette` tracking the active palette asset (Default: `📦 Default Color Palette (...)` with a target asset selector icon on the far right).
+        * **Palette Matrix Rows**: Contains exactly 16 parallel color assignment rows. Each row is structured with:
+            * `Apply` action button on the left to paint the selected mesh elements.
+            * A wide horizontal interactive color field bar showing the current color sample.
+            * An eyedropper / color sampler icon on the far right of the field bar.
+        * **Default Color Palette Spectrum (Top to Bottom Rows)**:
+            1. Dark Navy Blue
+            2. Mid Blue
+            3. Light Sky Blue
+            4. Cyan / Turquoise
+            5. Teal / Sea Green
+            6. Bright Green
+            7. Neon Mint Green
+            8. Yellow
+            9. Orange
+            10. Red
+            11. Maroon / Burgundy
+            12. Magenta / Hot Pink
+            13. Purple
+            14. Black
+            15. Medium Gray
+            16. Off-White / Light Gray
 
 * 🔵 **Orientation: Global**
 
