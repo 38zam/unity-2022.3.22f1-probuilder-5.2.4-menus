@@ -112,7 +112,62 @@ This file indexes the structural hierarchy and active states of the standalone P
                 * **Smooth**: Checkbox
     * **Note**: Click and drag in Scene view to place/scale. SHIFT+click to duplicate last settings.
 
+
 * 🟠 **New Poly Shape**
+    * **Behavior Note**: Clicking this tool immediately instantiates a new GameObject named `PolyShape` in the Hierarchy and activates the editing mode in the Scene view.
+    * **Scene View Overlay (Poly Shape Tool)**:
+        * ℹ️ *Click To Add Points. Press 'Enter' or 'Space' to Set Height*
+        * **Extrusion**: Numerical text input field (Default: `0`)
+        * **Flip Normals**: Checkbox toggle (Default: Unchecked)
+    * **Inspector Components (For PolyShape GameObject)**:
+        * 1. **GameObject Header**:
+            * **Name**: `PolyShape`
+            * **Static**: Checkbox (Default: Unchecked)
+            * **Tag**: `Untagged`
+            * **Layer**: `Default`
+        * 2. **Transform**:
+            * **Position**: X, Y, Z
+            * **Rotation**: X, Y, Z
+            * **Scale**: X, Y, Z
+        * 3. **ProBuilder MeshFilter**:
+            * **Button**: `Open ProBuilder`
+            * ℹ️ *Mesh property is driven by the ProBuilder component.*
+            * **Mesh**: Asset field reference (e.g., `pb_Mesh-6526`)
+            * **Object Size (read only)**: X, Y, Z (Default: `0, 0, 0` during editing)
+            * **Lightmap Static**: Checkbox toggle (Default: Unchecked)
+            * ℹ️ *Warning Icon: To enable generation of lightmap UVs for this Mesh, please enable the 'Lightmap Static' property.*
+        * 4. **Poly Shape (Script)**:
+            * ℹ️ *Click To Add Points. Press 'Enter' or 'Space' to Set Height*
+            * **Extrusion**: Numerical text input field (Mirrors the Scene View Overlay)
+            * **Flip Normals**: Checkbox toggle (Mirrors the Scene View Overlay)
+        * 5. **Mesh Renderer**:
+            * **Materials**: Size array field (Default: `1`)
+                * **Element 0**: Material asset reference (Default: `ProBuilderDefault`)
+            * ⚠️ *Warning Icon: This renderer has more materials than the Mesh has submeshes. Multiple materials will be applied to the same submesh, which costs performance. Consider using multiple shader passes.*
+            * **Lighting**:
+                * **Cast Shadows**: Dropdown (Default: `On`)
+                * **Receive Shadows**: Checkbox toggle (Default: Checked)
+                * **Contribute Global Illumination**: Checkbox toggle (Default: Unchecked)
+                * **Receive Global Illumination**: Dropdown (Default: `Light Probes` - Greyed out)
+            * **Probes**:
+                * **Light Probes**: Dropdown (Default: `Blend Probes`)
+                * **Reflection Probes**: Dropdown (Default: `Blend Probes`)
+                * **Anchor Override**: Asset field reference (Default: `None (Transform)`)
+            * **Additional Settings**:
+                * **Motion Vectors**: Dropdown (Default: `Per Object Motion`)
+                * **Dynamic Occlusion**: Checkbox toggle (Default: Checked)
+        * 6. **Mesh Collider**:
+            * **Convex**: Checkbox toggle (Default: Unchecked)
+            * **Is Trigger**: Checkbox toggle (Default: Unchecked)
+            * **Provides Contacts**: Checkbox toggle (Default: Unchecked)
+            * **Cooking Options**: Dropdown (Default: `Everything`)
+            * **Material**: Asset field reference (Default: `None (Physic Material)`)
+            * **Mesh**: Asset field reference (Default: `None (Mesh)`)
+            * **Layer Overrides**:
+                * **Layer Override Priority**: Integer input field (Default: `0`)
+                * **Include Layers**: Dropdown (Default: `Nothing`)
+                * **Exclude Layers**: Dropdown (Default: `Nothing`)
+
 * 🟠 **Smoothing**
 * 🟠 **Material Editor**
 * 🟠 **UV Editor**
