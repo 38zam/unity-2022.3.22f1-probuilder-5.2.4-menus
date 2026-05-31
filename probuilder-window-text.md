@@ -322,6 +322,17 @@ This file indexes the structural hierarchy and active states of the standalone P
 * 🟢 *Conform Normals* `[Disabled — Greyed out]`
 * 🟢 *Export* `[Disabled — Greyed out]` `[ + ]`
 * 🟢 **Lightmap UVs** `[Always Enabled]` `[ + ]`
+* * 🟢 **Object Actions (Green Section)**
+    * `Lightmap UVs` `[+]`:
+        * **UI Indicator**: Features a small green `+` square icon on the far right.
+        * **Official Tooltip**: 
+            > Generate Lightmap UVs for any meshes in the open scenes that are missing them.
+        * **Secondary Window Popup**: Clicking the `[+]` icon opens a dedicated floating window titled **Lightmap UV Editor**.
+            * **Window Header**: White bar container displaying the title on the left and a red close (`x`) button on the far right.
+            * **Section Title**: `Lightmap UV Settings`
+            * **Parameters**: 
+                * `Auto Lightmap UVs`: Checkbox toggle (Enabled/Checked by default).
+
 * 🟢 *Triangulate* `[Disabled — Greyed out]`
 * 🟢 *Center Pivot* `[Disabled — Greyed out]`
 * 🟢 *ProBuilderize* `[Disabled — Greyed out]` `[ + ]`
