@@ -281,7 +281,43 @@ This file indexes the structural hierarchy and active states of the standalone P
             > 
             > The default value is Intersect, meaning if any part of the elemnent is touched by the drag rectangle it will be selected.
 
-* 🔵 **Orientation: Global**
+* 🔵 **Selection Modifiers (Blue Section)**
+    * `Rect` Toggle:
+        * **Behavior**: Controls bounding box selection encapsulation. Switches between:
+            * `Rect: Intersect` (Default): Selects elements if any part is touched by the drag rectangle.
+            * `Rect: Complete`: Selects elements only if completely enclosed inside the drag rectangle.
+    * `Shift` Cycle Toggle:
+        * **Behavior**: Changes how the `Shift` key modifies active drag selections. Cycles through:
+            * `Shift: Difference` (Default): Inverts the selection state of the targeted elements.
+            * `Shift: Add`: Always adds newly dragged elements to the current selection.
+            * `Shift: Subtract`: Always removes dragged elements from the current selection.
+        * **Official Tooltip**:
+            > When drag selecting elements, does the shift key
+            > 
+            > - [Add] Always add to the selection
+            > - [Subtract] Always subtract from the selection
+            > - [Difference] Invert the selection by the selected faces (Default)
+    * `Orientation` Cycle Toggle:
+        * **Behavior**: Toggles the alignment reference of the transform gizmo handles. Cycles through:
+            * `Orientation: Global`: Aligns handles to world axis space.
+            * `Orientation: Local`: Aligns handles to the active object's rotation coordinates.
+            * `Orientation: Normal`: Aligns handles directly with the active element selection's normal vector.
+        * **Official Tooltips**:
+            * *Local State*: `The transform handle is aligned with the active object rotation.`
+            * *Normal State*: `The transform handle is aligned with the active element selection.`
+    * `Select Hidden` Toggle:
+        * **Behavior**: Controls backface and occlusion culling during component selection. Toggles between:
+            * `Select Hidden: On` (Default): Allows selection of obscured or camera-facing backfaces.
+            * `Select Hidden: Off`: Limits selection exclusively to elements directly visible to the camera view.
+        * **Official Tooltip**:
+            > Setting Hidden Element Selection to On allows you to select faces that are either obscured by geometry or facing away from the scene camera (backfaces).
+            > 
+            > The default value is On.
+    * `Select Face Loop` / `Select Face Ring`: Action items without sub-menus.
+    * `Select by Material` `[+]` / `Select by Colors` `[+]`: 
+        * **UI Indicator**: Features a small blue `+` square icon on the far right. 
+        * **Human/AI Note**: This indicator signals that a secondary option window/overlay can be opened to configure parameters before running the selection tool.
+    * `Shrink Selection` / `Grow Selection`: Direct component selection scaling actions.
 
 * 🟢 *Conform Normals* `[Disabled — Greyed out]`
 * 🟢 *Export* `[Disabled — Greyed out]` `[ + ]`
