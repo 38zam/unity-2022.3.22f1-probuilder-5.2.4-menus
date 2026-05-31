@@ -206,6 +206,44 @@ This file indexes the structural hierarchy and active states of the standalone P
         * **Add**: Button at the bottom of the shortcut list.
 
 * 🟠 **UV Editor**
+    * **Behavior Note**: Opening this tool brings up a dedicated graphical grid workspace window with an integrated top toolbar, a floating Actions panel, and a coordinate grid display. Crucially, the selection mode buttons in this window dynamically toggle the global ProBuilder selection modes, filtering the available actions in the main ProBuilder panel.
+    * **Top Toolbar Icons (From Left to Right)**:
+        * 🛠️ **Navigation & Transform Tools**:
+            * `Pan Tool` (Icon: Open Hand)
+            * `Move Tool` (Icon: 4-Way Arrow | Tooltip: `Move Tool` — Active/Blue highlighted by default)
+            * `Rotate Tool` (Icon: Circular arrow | Tooltip: `Rotate Tool`)
+            * `Scale Tool` (Icon: Square box with expanding arrow)
+        * 📐 **Selection Mode Toggles (Changes Global ProBuilder Mode)**:
+            * `Object Selection` (Icon: Cube with highlighted corners | Tooltip: `Object Selection`) — *Sets ProBuilder panel to Object commands*.
+            * `Vertex Selection` (Icon: Cube with 4 separate dots | Tooltip: `Vertex Selection`) — *Appends blue selection tools and red vertex actions*.
+            * `Edge Selection` (Icon: Cube with highlighted wireframe edges | Tooltip: `Edge Selection`) — *Appends blue edge modifiers and red edge actions*.
+            * `Face Selection` (Icon: Cube with a highlighted side face | Tooltip: `Face Selection`) — *Appends blue face modifiers and red face actions*.
+        * 🎛️ **UV Command Toggles (Independent On/Off & Modals)**:
+            * `Lock SceneView Handles` (Icon: 3-Way Colored Gizmo Arrows | Tooltip: `Lock the SceneView handle tools to UV manipulation mode. This allows you to move UV coordinates directly on your 3d object.`) — *Independent toggle button*.
+            * `UV Viewer / Texture Preview` (Icon: Layered grid | Visual States: Orange when enabled, Gray/White grid lines when disabled) — *Independent toggle button to draw texture patterns behind UV layout*.
+            * `Render UV Template` (Icon: Camera) — *Opens a modal settings overlay menu labeled "Render UVs" containing*:
+                * **Image Size**: Dropdown selection menu featuring resolution presets: `256`, `512`, `1024` (Default), `2048`, and `4096`.
+                * **Hide Grid**: Checkbox toggle.
+                * **Line Color**: Color picker field (Default: Vibrant Green).
+                * **Include Texture**: Checkbox toggle.
+                * **Transparent Background**: Checkbox toggle.
+                * **Background Color**: Color picker field (Default: Black).
+                * **Action Button**: `Save UV Template` button located at the bottom of the modal parameters.
+        * 📋 **UV Channel Dropdown**:
+            * **Channel Selection**: Dropdown menu tracking current active editing layer. Options include:
+                * `UV 1` (Active editable channel)
+                * `UV 2 (read-only)`
+                * `UV 3 (read-only)`
+                * `UV 4 (read-only)`
+    * **Floating Actions Panel**:
+        * **Header**: `Actions`
+        * **Central State Status**: 
+            * ℹ️ *No UVs Selected* (Displayed when no active UV components are chosen).
+    * **Grid Workspace**:
+        * **Visual Boundaries**: Features a thick bright blue square outline representing the 0-1 UV space.
+        * **Origin Coordinates**: Displays a faint gray `0, 0` text indicator at the bottom-left vertex corner of the blue outline boundary.
+        * **Background Layout**: Dark gray grid matrix canvas background.
+
 * 🟠 **Vertex Colors**
 
 * 🔵 **Orientation: Global**
