@@ -10,78 +10,78 @@ This file indexes the structural hierarchy and active states of the standalone P
     * **Shape Palette (Icons)**:
         * 1. **Sprite**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown (Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
+                * **Shape**: Sprite (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 0
+                * **Size**: X, Y, Z
         * 2. **Plane**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Plane (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 0, Z: 1
+                * **Size**: X, Y, Z
             * **Plane Settings**:
                 * **Height Cuts**: Integer input
                 * **Width Cuts**: Integer input
         * 3. **Cone**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Cone (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Cone Settings**:
                 * **Sides Count**: Slider / Integer input
                 * **Smooth**: Checkbox
         * 4. **Sphere**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Sphere (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 0, Z: 1
+                * **Size**: X, Y, Z
             * **Sphere Settings**:
                 * **Subdivisions**: Slider / Integer input
                 * **Smooth**: Checkbox
         * 5. **Door**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Door (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 0, Z: 1
+                * **Size**: X, Y, Z
             * **Door Settings**:
                 * **Pediment Height**: Float input
                 * **Side Width**: Float input
         * 6. **Prism**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Prism (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 0, Z: 1
+                * **Size**: X, Y, Z
             * *No unique settings.*
         * 7. **Cube**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Cube (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * *No unique settings.*
         * 8. **Cylinder**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Cylinder (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Cylinder Settings**:
                 * **Sides Count**: Slider / Integer input
                 * **Height Cuts**: Integer input
                 * **Smooth**: Checkbox
         * 9. **Stairs**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Stairs (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Stairs Settings**:
-                * **Steps Generation**: Dropdown (Count)
+                * **Steps Generation**: Dropdown
                 * **Steps Count**: Slider / Integer input
                 * **Circumference**: Slider input
                 * **Inner Radius**: Float/Integer input
                 * **Sides**: Checkbox
         * 10. **Torus**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Torus (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Torus Settings**:
                 * **Tube Radius**: Float input
                 * **Rows**: Slider / Integer input
@@ -91,9 +91,9 @@ This file indexes the structural hierarchy and active states of the standalone P
                 * **Smooth**: Checkbox
         * 11. **Arch**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Arch (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Arch Settings**:
                 * **Thickness**: Float input
                 * **Sides Count**: Slider / Integer input
@@ -102,9 +102,9 @@ This file indexes the structural hierarchy and active states of the standalone P
                 * **Smooth**: Checkbox
         * 12. **Pipe**:
             * **Shape Properties (New Shape)**:
-                * **Shape**: Dropdown
+                * **Shape**: Pipe (Dropdown: Sprite, Plane, Cone, Sphere, Door, Prism, Cube, Cylinder, Stairs, Torus, Arch, Pipe)
                 * **Pivot**: [Center, First Corner]
-                * **Size**: X: 1, Y: 1, Z: 1
+                * **Size**: X, Y, Z
             * **Pipe Settings**:
                 * **Thickness**: Float input
                 * **Sides Count**: Slider / Integer input
