@@ -169,6 +169,18 @@ This file indexes the structural hierarchy and active states of the standalone P
                 * **Exclude Layers**: Dropdown (Default: `Nothing`)
 
 * 🟠 **Smoothing**
+    * **Behavior Note**: Clicking this tool opens the standalone `Smooth Group Editor` window. The top bar contains three toggleable tab buttons (`Settings`, `Preview`, `Normals`) that can be turned ON/OFF independently. Multiple tabs can be active simultaneously, stacking their respective settings sections in the panel.
+    * **Window Central State**:
+        * ℹ️ *Select a ProBuilder Mesh* (Displayed when no valid ProBuilder geometry is active)
+    * **Tab Toggles & Options**:
+        * 1. **Settings** `[Toggleable Button]`
+            * **Preview Opacity**: Horizontal slider accompanied by a numerical text input field (Default: `0.5`)
+            * **Preview Dither**: Checkbox toggle (Default: Unchecked)
+        * 2. **Preview** `[Toggleable Button]`
+            * *No unique settings panel displayed inside the window.*
+        * 3. **Normals** `[Toggleable Button]`
+            * **Size/Length Slider**: A horizontal slider is exposed directly on the right side of the tab bar header to control normal lines visualization.
+
 * 🟠 **Material Editor**
 * 🟠 **UV Editor**
 * 🟠 **Vertex Colors**
